@@ -4,16 +4,16 @@
 // if be print *
 // outpur is -
 // 1
-// 1 3
-// 1 3 5
-// 1 3 5 7
+// 2 3
+// 4 5 6
+// 7 8 9 10
 
 // ans
 
 
 import java.util.Scanner;
 
-public class OddNumTriangle {
+public class FloyasTriangle {
     public static void main(String[] args) {
         try(Scanner sc = new Scanner(System.in)) {
 
@@ -21,17 +21,16 @@ public class OddNumTriangle {
             System.out.println("enter the row number");
             int n = sc.nextInt();
 
-                  // logic 
+                 // logic 
+                  int a = 1 ;
             for (int i = 1; i <= n; i++) {
-                int a = 1 ;
                 for (int j = 1; j <= i; j++) {
-                    System.err.print(a + " ");
-                    a+= 2;
+                    System.err.print(a++  + " ");
+                    
                 }
                 System.out.println("");
             }
 
         }
-        }
     }
-
+}
