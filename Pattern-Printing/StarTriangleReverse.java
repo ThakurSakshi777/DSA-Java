@@ -1,3 +1,22 @@
+// ques 
+// print n*n TriangleReverse
+
+// if be print *
+// outpur is -
+// * * * *
+// * * *
+// * *
+// *
+
+// if be print J
+// output is -
+// 1 2 3 4
+// 1 2 3
+// 1 2 
+// 1 
+
+// ans
+
 
 import java.util.Scanner;
 
