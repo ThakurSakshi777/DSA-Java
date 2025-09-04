@@ -9,7 +9,7 @@
 // # 1 2 3
 // 1 2 3 4
 
-package SpecialPrinting;
+package shapes;
 
 import java.util.Scanner;
 
@@ -22,12 +22,12 @@ public class FlippedComposite {
             int n = sc.nextInt();
 
                   // logic 
-            for (int i = 1; i <= n; i++) {
-                for (int j = 1; j <= (n-i); j++) {
-                    System.out.print("#" + " ");
+            for (int i = 1; i <= n; i++) { // row
+                for (int j = 1; j <= (n-i); j++) { // col
+                    System.out.print("#" + " "); // hash
                 }
-                 for (int j = 1; j <= i; j++) {
-                    System.out.print(j + " ");
+                 for (int j = 1; j <= i; j++) { // col
+                    System.out.print(j + " "); // hash
                 }
                 System.out.println("");
             }
