@@ -19,7 +19,7 @@ public class LinearSearch {
              System.out.print("Enter array element  :  ");
             int arr[] = new int [n];
             // input of array
-            for (int i = 0; i < arr.length; i++) {
+            for (int i = 0; i <= arr.length; i++) {
                 arr[i]= sc.nextInt();
             }
 
