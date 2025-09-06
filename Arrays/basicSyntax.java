@@ -5,7 +5,7 @@ public class basicSyntax {
 
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
-            int[] arr = new int[5];
+            int[] arr = new int[5]; // declaration and memory allocation
             System.out.println(arr.length); // find the length of arre
             // initialising individual element
             arr[0] = 10;
