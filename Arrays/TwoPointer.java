@@ -1,4 +1,4 @@
-
+//
 import java.util.Scanner;
 
 public class TwoPointer {
@@ -32,7 +32,7 @@ public class TwoPointer {
             }
             for(int ele:arr){
                 System.out.print(ele);
-            };
+            }
         }
     }
 }
