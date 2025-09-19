@@ -1,8 +1,7 @@
-import java.util.Scanner;
 
 public class MargArray {
     public static void main(String[] args) {
-        try(Scanner sc = new Scanner(System.in)) {
+      
 
             
              int arr1 [] = { 2 , 5 , 7 ,9} ;
@@ -50,6 +49,6 @@ public class MargArray {
                 System.out.print(ele + " ");
             }
            
-        }
+        
     }
 }
