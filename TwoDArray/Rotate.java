@@ -14,10 +14,11 @@ public class Rotate {
         System.err.println();
     }
     public static void main(String[] args) {
-        int [][] arr = {{1,2,3} , {4,6,7} ,{5,7,8}};
+        int [][] arr = {{1,2,3} , {4,6,7} ,{8,9,10}};
          int m = arr.length ;
         print(arr);
 
+     // Transposing 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j <= i; j++) {
               int temp = arr[i][j] ;
@@ -25,6 +26,21 @@ public class Rotate {
               arr[j][i] = temp ;
             }
         }
+         print(arr);
+
+         // Rotate 90% , After trasnsposing Revers arch row 
+          for (int i = 0; i < m; i++) {
+            int low = 0 , hi = m-1 ;
+              while (low< hi) { 
+              int temp = arr[i][low] ;
+              arr[i][low] = arr[i][hi] ;
+              arr[i][hi] = temp ;
+              low++ ;
+              hi-- ;
+
+              }
+            }
+        
          print(arr);
     }
 }
