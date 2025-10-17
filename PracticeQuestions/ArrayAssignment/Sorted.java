@@ -1,3 +1,5 @@
+//Check if the given array is sorted or not
+
 package PracticeQuestions.ArrayAssignment;
 
 import java.util.Scanner;
